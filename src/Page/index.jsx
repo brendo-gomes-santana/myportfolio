@@ -21,7 +21,12 @@ export default function Home() {
             </Banner>
             <Sobre>
                 <h3>Sobre mim</h3>
-                <p>Desde cedo, fui atraído pela tecnologia e aos 14 anos, tive meu primeiro contato com programação. Embora incerto sobre meu futuro na época, durante a faculdade, descobri minha paixão por ser um programador fullstack. Começando pelo front-end com HTML, CSS e JavaScript, expandi meus conhecimentos em ReactJS e Sass. Atualmente, estou mergulhado no back-end com Node.js, Express, Sequelize, PostgreSQL e outros. Meu aprendizado nunca para, dedicando pelo menos duas horas aprendidas para aprimorar minhas habilidades.</p>
+                <p>Desde cedo, fui atraído pela tecnologia e aos 14 anos, tive meu primeiro contato com 
+                    programação. Embora incerto sobre meu futuro na época, durante a faculdade, descobri 
+                    minha paixão por ser um programador fullstack. Começando pelo front-end com HTML, CSS e 
+                    JavaScript, expandi meus conhecimentos em ReactJS e Sass. Atualmente, estou mergulhado no 
+                    back-end com Node.js, Express, Sequelize, PostgreSQL e outros. Meu aprendizado nunca para, 
+                    dedicando pelo menos duas horas aprendidas para aprimorar minhas habilidades.</p>
             </Sobre>
         </>
     )

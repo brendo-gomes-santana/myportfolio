@@ -7,7 +7,7 @@ export const BaseContext = createContext({});
 
 export default function BaseProvider({ children }) {
 
-    const [color, setColor] = useState(false);
+    const [color, setColor] = useState(true);
 
     function ChangeColor(){
         setColor(!color)

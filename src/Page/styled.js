@@ -1,5 +1,13 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+const animate = keyframes`
 
+  to  {
+    border-radius: 100% 50% 100% 50%;
+  }
+  from {
+    border-radius: 50% 100% 50% 100%;
+  }
+`;
 export const Banner = styled.section`
     padding: 20vh 1em 0 1em;
     display: flex;
@@ -17,7 +25,7 @@ export const Escrita = styled.article`
         font-size: 4em;
 
         span{
-            color: #4D7DF7;
+            color: #7DA2DA;
         }
     }
 
@@ -30,16 +38,20 @@ export const Escrita = styled.article`
 
 export const ContainerImg = styled.figure`
 
-    border: 2px solid ${props => props.theme.contrastColor};
-    border-radius: 100% 10% 120% 120%;
+    height: 490px;
+    width: 450px;
+    
+    background-color: ${props => props.theme.contrastColor};
+    overflow: hidden;
+
+    animation: ${animate} 3s alternate infinite;
 
     img{
     width: 500px;
     height: 500px; 
-    object-fit: cover;
-    object-position: 0% 100%; 
-    border-radius: 100%;
 
+    object-fit: cover;
+    object-position: 0px -110px; /* try 20% 10% */
     }
 `;
 
@@ -64,3 +76,4 @@ export const Sobre = styled.section`
         line-height: 2em;
     }
 `;
+
