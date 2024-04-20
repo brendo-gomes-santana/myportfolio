@@ -7,12 +7,18 @@ export const BaseContext = createContext({});
 
 export default function BaseProvider({ children }) {
 
-    const [color, setColor] = useState(tema.dark);
+    const [color, setColor] = useState(false);
 
-
+    function ChangeColor(){
+        setColor(!color)
+    }
+ 
     return (
-        <BaseContext.Provider value={{  }}>
-            <ThemeProvider theme={color}>
+        <BaseContext.Provider value={{ 
+            ChangeColor,
+            color
+         }}>
+            <ThemeProvider theme={color ? tema.light : tema.dark}>
                 {children}
             </ThemeProvider>
         </BaseContext.Provider>
