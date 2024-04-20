@@ -6,6 +6,8 @@ import GlobalStyle from './globalStyled';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
+
 root.render(
   <>
     <BaseProvider>

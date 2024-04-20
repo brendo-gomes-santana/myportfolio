@@ -2,6 +2,7 @@ import Header from "../Components/Header"
 import { Banner, Escrita, ContainerImg, Sobre } from "./styled";
 
 import eu from '../Figure/eu.png';
+import Habilidade from "../Components/Habilidade";
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
                     back-end com Node.js, Express, Sequelize, PostgreSQL e outros. Meu aprendizado nunca para, 
                     dedicando pelo menos duas horas aprendidas para aprimorar minhas habilidades.</p>
             </Sobre>
+            <Habilidade/>
         </>
     )
 }
