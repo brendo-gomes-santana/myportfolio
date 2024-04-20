@@ -58,13 +58,13 @@ export default function Habilidade() {
     },[])
 
     return (
-        <Container>
-        <h3>Habilidades</h3>
+        <Container id='skills'>
+        <h3>Skills</h3>
             <Swiper
                 
                 modules={[Autoplay]}
                 slidesPerView={slideView}
-                autoplay= {{ delay: 2000 }}
+                autoplay= {{ delay: 750 }}
             >
             {habilidades.map((item, index) => {
                 return(

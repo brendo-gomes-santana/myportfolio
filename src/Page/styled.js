@@ -59,7 +59,7 @@ export const Sobre = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 1em;
+    padding: 5em 1em;
 
     h3{
         font-size: 2em;
@@ -77,3 +77,11 @@ export const Sobre = styled.section`
     }
 `;
 
+export const Contatos = styled.section`
+    padding: 1em;
+    h5{
+        font-size: 2em;
+        letter-spacing: 20px;
+        margin: 0.5em 0;
+    }
+`;

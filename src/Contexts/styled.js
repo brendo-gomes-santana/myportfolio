@@ -1,6 +1,6 @@
 export const tema = {
     light: {
-        colorFont: '#000',
+        colorFont: '#0D1117',
         background: '#fff',
         contrastColor: '#7DA2DA',
         colorFontContrast: '#fff'

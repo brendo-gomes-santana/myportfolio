@@ -4,10 +4,11 @@ export const Container = styled.section`
 
     width: 100%;
 
-    padding: 1em;
+    padding: 5em;
     h3{
-        font-size: 3em;
+        font-size: 2em;
         margin: 0.5em 0;
+        letter-spacing: 20px;
 
     }
 
