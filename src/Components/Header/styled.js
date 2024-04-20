@@ -15,6 +15,11 @@ export const Container = styled.header`
 
     padding: 0 1em;
 
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 644px){
+        justify-content: center;
+    }
 `;
 
 export const Navegacao = styled.nav`
