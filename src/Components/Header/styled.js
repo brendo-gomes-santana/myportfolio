@@ -16,6 +16,11 @@ export const Container = styled.header`
     padding: 0 1em;
 
     flex-wrap: wrap;
+    background-color: #00103D;
+    
+    h1{
+        color: #fff;
+    }
 
     @media screen and (max-width: 644px){
         justify-content: center;
@@ -41,7 +46,7 @@ export const Navegacao = styled.nav`
 
     a, button {
         transition: 0.5s;
-
+        color: #fff;
         &:hover{
             transform: translateY(-3px);
         }

@@ -7,6 +7,8 @@ export const tema = {
     dark: {
         colorFont: '#fff',
         background: '#00103D',
-        contrastColor: '#4D7DF7'
+        contrastColor: '#fff'
+
+
     }
 }

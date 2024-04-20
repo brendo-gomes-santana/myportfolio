@@ -1,9 +1,25 @@
 import Header from "../Components/Header"
-export default function Home(){
+import { Banner, Escrita, ContainerImg, Sobre } from "./styled";
 
-    return(
+import eu from '../Figure/eu.png';
+
+export default function Home() {
+    return (
         <>
-        <Header/>
+            <Header />
+            <Banner>
+                <Escrita>
+                    <h2>Hello, i am
+                        <br />
+                        <span>Brendo Gomes</span>
+                    </h2>
+                    <p>Full stack developer</p>
+                </Escrita>
+                <ContainerImg>
+                    <img src={eu} alt="minha-imagem" />
+                </ContainerImg>
+            </Banner>
+
         </>
     )
 }
