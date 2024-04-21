@@ -8,6 +8,12 @@ export const Container = styled.section`
         letter-spacing: 20px;
         margin-bottom: 0.5em;
     }
+
+    @media screen and (max-width: 500px){
+        
+        padding: 3em 1em;
+
+    }
 `;
 
 export const Lista = styled.ul`

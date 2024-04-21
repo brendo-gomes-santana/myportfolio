@@ -46,7 +46,7 @@ export default function Habilidade() {
 
             if (width < 720) {
                 // Tamanho de tela pequeno
-                setSlideView(2);
+                setSlideView(3);
             } else if (width >= 720 && width < 1024) {
                 // Tamanho de tela médio
                 setSlideView(4);

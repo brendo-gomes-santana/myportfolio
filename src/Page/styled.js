@@ -17,6 +17,10 @@ export const Banner = styled.section`
     justify-content: space-around;
 
     min-height: 90vh;
+
+    @media screen and (max-width: 920px){
+        flex-direction: column-reverse;
+    }
 `;
 
 export const Escrita = styled.article`
@@ -53,6 +57,15 @@ export const ContainerImg = styled.figure`
     object-fit: cover;
     object-position: 0px -110px; /* try 20% 10% */
     }
+
+    @media screen and (max-width: 500px){
+        height: 400px;
+        width: 360px;
+        img{
+            width: 410px;
+            height: 410px; 
+        }
+    }
 `;
 
 export const Sobre = styled.section`
@@ -74,6 +87,12 @@ export const Sobre = styled.section`
         max-width: 1080px;
         text-align: center;
         line-height: 2em;
+    }
+
+    @media screen and (max-width: 500px){
+        
+        padding: 3em 1em;
+
     }
 `;
 

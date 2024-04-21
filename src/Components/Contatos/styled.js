@@ -21,6 +21,12 @@ export const Container = styled.section`
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
+    @media screen and (max-width: 500px){
+        
+        padding: 3em 1em;
+
+    }
 `;
 export const Card = styled.article`
     display: flex;

@@ -12,6 +12,11 @@ export const Container = styled.section`
 
     }
 
+    @media screen and (max-width: 500px){
+        
+        padding: 3em 1em;
+
+    }
 `;
 export const Card = styled.article`
 
