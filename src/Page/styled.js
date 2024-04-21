@@ -77,11 +77,3 @@ export const Sobre = styled.section`
     }
 `;
 
-export const Contatos = styled.section`
-    padding: 1em;
-    h5{
-        font-size: 2em;
-        letter-spacing: 20px;
-        margin: 0.5em 0;
-    }
-`;

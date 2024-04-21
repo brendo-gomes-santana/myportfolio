@@ -1,9 +1,10 @@
 import Header from "../Components/Header"
-import { Banner, Escrita, ContainerImg, Sobre, Contatos } from "./styled";
+import { Banner, Escrita, ContainerImg, Sobre } from "./styled";
 
 import eu from '../Figure/eu.png';
 import Habilidade from "../Components/Habilidade";
-
+import Contatos from "../Components/Contatos";
+import Cursos from "../Components/Cursos";
 export default function Home() {
     return (
         <>
@@ -30,9 +31,8 @@ export default function Home() {
                     dedicating at least two learning hours to improving my skills.</p>
             </Sobre>
             <Habilidade/>
-            <Contatos>
-                <h5>Contacts</h5>
-            </Contatos>
+            <Cursos/>
+            <Contatos/>
         </>
     )
 }
