@@ -41,10 +41,21 @@ export default function Habilidade() {
 
     useEffect(() => {
         function alterarSlide(){
-            if(window.innerWidth < 720){
-                setSlideView(2)
-            }else{
-                setSlideView(8)
+
+            const width = window.innerWidth;
+
+            if (width < 720) {
+                // Tamanho de tela pequeno
+                setSlideView(2);
+            } else if (width >= 720 && width < 1024) {
+                // Tamanho de tela médio
+                setSlideView(4);
+            } else if (width >= 1024 && width < 1440) {
+                // Tamanho de tela grande
+                setSlideView(5);
+            } else {
+                // Tamanho de tela extra-grande
+                setSlideView(8);
             }
         }
 
