@@ -17,6 +17,28 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
         color: ${(props) => { return props.theme.colorFont }};
     }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: ${(props) => { return props.theme.contrastColor }}; 
+        border-radius: 5px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #2B384B; 
+    }
+
 `;
 
 export default GlobalStyle;
