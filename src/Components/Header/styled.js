@@ -17,7 +17,7 @@ export const Container = styled.header`
 
     flex-wrap: wrap;
     background-color: #0D1117;
-    
+    z-index: 1000;
     h1{
         color: #fff;
     }
