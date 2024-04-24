@@ -11,7 +11,7 @@ import capa_sujeitoPizza from '../../Figure/capa_sujeitoPizza.png';
 
 export default function Projetos(){
     return(
-        <Container>
+        <Container id="projetos">
             <h5>Projects</h5>
 
             <article>
@@ -32,23 +32,7 @@ export default function Projetos(){
                         </span>
                     </Capa>
                 </Card>
-                <Card>
-                    <img src={capa_sujeitoPizza} alt="Capa sujeito pizza" />
-                    <Capa>
-                        Sujeito Pizza
-                        <span>
-                            <FaHtml5/>
-                            <SiSass/>
-                            <SiPrisma/>
-                            <SiExpress/>
-                            <SiTypescript/>
-                            <RiReactjsLine/>
-                            <TbBrandNodejs/>
-                            <BiLogoPostgresql/>
-                            <TbBrandReactNative/>
-                        </span>
-                    </Capa>
-                </Card>
+
             </article>
         </Container>
     )

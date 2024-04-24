@@ -13,8 +13,8 @@ export default function Header() {
             <Navegacao>
                 <a href="#about-me">About me</a>
                 <a href="#skills">Skills</a>
-                <a href="#########">Projects</a>
-                <a href="#########">Contacts</a>
+                <a href="#projetos">Projects</a>
+                <a href="#contatos">Contacts</a>
                 
                 <button onClick={() => ChangeColor()}>
                     {color ? (

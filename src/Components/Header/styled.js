@@ -5,8 +5,7 @@ export const Container = styled.header`
     top: 0;
 
     width: 100%;
-    height: 10vh;
-
+    min-height: 11vh;
     border-bottom: 2px solid ${props => props.theme.contrastColor};
 
     display: flex;

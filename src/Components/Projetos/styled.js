@@ -12,7 +12,7 @@ export const Container = styled.section`
     article{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         flex-wrap: wrap;
 
     }

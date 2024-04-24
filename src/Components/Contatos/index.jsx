@@ -7,7 +7,7 @@ import { Container, Card } from "./styled";
 
 export default function Contatos() {
     return (
-        <Container>
+        <Container id="contatos">
             <h5>Contacts</h5>
             <div>
                 <Card>
