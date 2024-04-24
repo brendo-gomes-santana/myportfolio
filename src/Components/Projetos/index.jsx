@@ -10,12 +10,17 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import capa_sujeitoPizza from '../../Figure/capa_sujeitoPizza.png';
 
 export default function Projetos(){
+
+    function IrProCodigo(link){
+        window.open(`https://github.com/brendo-gomes-santana/${link}`)
+    }
+
     return(
         <Container id="projetos">
             <h5>Projects</h5>
 
             <article>
-                <Card>
+                <Card onClick={() => IrProCodigo('SujeitoPizza')}>
                     <img src={capa_sujeitoPizza} alt="Capa sujeito pizza" />
                     <Capa>
                         Sujeito Pizza
