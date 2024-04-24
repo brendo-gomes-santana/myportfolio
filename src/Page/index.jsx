@@ -5,6 +5,7 @@ import eu from '../Figure/eu.png';
 import Habilidade from "../Components/Habilidade";
 import Contatos from "../Components/Contatos";
 import Cursos from "../Components/Cursos";
+import Projetos from "../Components/Projetos";
 export default function Home() {
     return (
         <>
@@ -32,6 +33,7 @@ export default function Home() {
             </Sobre>
             <Habilidade/>
             <Cursos/>
+            <Projetos/>
             <Contatos/>
         </>
     )
