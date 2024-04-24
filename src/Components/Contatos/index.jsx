@@ -11,28 +11,28 @@ export default function Contatos() {
             <h5>Contacts</h5>
             <div>
                 <Card>
-                    <a href="mailto:brendogs2021@gmail.com">
+                    <a href="mailto:brendogs2021@gmail.com" target="blank">
                         <MdOutlineMail />
                     </a>
                     <span>E-mail</span>
                     <p>brendogs2021@gmail.com</p>
                 </Card>
                 <Card>
-                    <a href="https://www.linkedin.com/in/brendo-g-santana/">
+                    <a href="https://www.linkedin.com/in/brendo-g-santana/" target="blank">
                         <FiLinkedin />
                     </a>
                     <span>Linkedin</span>
                     <p>@brendo-gomes-santana</p>
                 </Card>
                 <Card>
-                    <a href="https://api.whatsapp.com/send?phone=5592992050852">
+                    <a href="https://api.whatsapp.com/send?phone=5592992050852" target="blank">
                         <SlPhone />
                     </a>
                     <span>Contato</span>
                     <p>(92) 9299205-0852</p>
                 </Card>
                 <Card>
-                    <a href="https://github.com/brendo-gomes-santana">
+                    <a href="https://github.com/brendo-gomes-santana" target="blank">
                         <FiGithub />
                     </a>
                     <span>Github</span>
