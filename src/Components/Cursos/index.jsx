@@ -3,7 +3,7 @@ import { Container, Lista } from "./styled"
 export default function Cursos() {
     return (
         <Container>
-            <h5>Courses</h5>
+            <h5>Cursos</h5>
             <Lista>
                 <li>Gestão Administrativa com ênfase em Marketing Digital</li>
                 <li>Gestão Industrial e Inovação Tecnologia</li>

@@ -10,6 +10,7 @@ export const tema = {
         background: '#0D1117',
         contrastColor: '#7DA2DA',
         colorFontContrast: '#0D1117'
+        
 
     }
 }

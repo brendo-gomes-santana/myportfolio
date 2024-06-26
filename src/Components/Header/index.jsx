@@ -11,10 +11,10 @@ export default function Header() {
         <Container>
             <h1>Portfólio</h1>
             <Navegacao>
-                <a href="#about-me">About me</a>
+                <a href="#about-me">Sobre me</a>
                 <a href="#skills">Skills</a>
-                <a href="#projetos">Projects</a>
-                <a href="#contatos">Contacts</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contatos">Contatos</a>
                 
                 <button onClick={() => ChangeColor()}>
                     {color ? (

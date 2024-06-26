@@ -8,7 +8,7 @@ import { Container, Card } from "./styled";
 export default function Contatos() {
     return (
         <Container id="contatos">
-            <h5>Contacts</h5>
+            <h5>Contatos</h5>
             <div>
                 <Card>
                     <a href="mailto:brendogs2021@gmail.com" target="blank">
