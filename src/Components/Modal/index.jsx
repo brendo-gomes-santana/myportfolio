@@ -12,7 +12,7 @@ export default function ModalBase({ openModal, handleClosedModal, linkVideo, chi
 
     return (
         <Modal
-            open={openModal}
+            open={openModal === id}
             onClose={() => handleClosedModal(0)}
             slots={{ backdrop: Backdrop }}
             closeAfterTransition
@@ -30,9 +30,12 @@ export default function ModalBase({ openModal, handleClosedModal, linkVideo, chi
                     <ContainerInfor>
                         <h1>{title}</h1>
                         <p>
-                        {children}
+                            {children}
                         </p>
-                        <a href={`https://github.com/brendo-gomes-santana/${linkGit}`} target='blank'>Projeto GitHub</a>
+
+                        {linkGit !== '' && (
+                            <a href={`https://github.com/brendo-gomes-santana/${linkGit}`} target='blank'>Projeto GitHub</a>
+                        )}
                     </ContainerInfor>
                 </ContainerBox>
             </Fade>

@@ -17,6 +17,7 @@ export const ContainerBox = styled(Box)`
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
+    z-index: 5000;
 `;
 
 export const ContainerInfor = styled.article`
