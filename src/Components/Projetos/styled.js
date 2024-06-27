@@ -25,12 +25,15 @@ export const Container = styled.section`
 
 export const Card = styled.div`
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
+    height: 200px;
     position: relative;
     margin: 1em;
 
     img{
         border-radius: 13px;
+        max-width: 400px;
+        height: 200px;
         width: 100%;
     }
 

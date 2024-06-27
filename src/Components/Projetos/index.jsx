@@ -3,12 +3,12 @@ import { useState } from 'react';
 
 import { Container, Card, Capa } from "./styled";
 
-import { FaHtml5 } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiSass, SiTypescript, SiExpress, SiPrisma } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandReactNative, TbBrandNodejs  } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
-
+import { IoLogoJavascript } from "react-icons/io5";
 
 //CAPAS DOS PROJETOS
 import capa_sujeitoPizza from '../../Figure/capa_sujeitoPizza.png';
@@ -52,14 +52,10 @@ export default function Projetos(){
                         Projeto Radar
                         <span>
                             <FaHtml5/>
-                            <SiSass/>
-                            <SiPrisma/>
-                            <SiExpress/>
-                            <SiTypescript/>
-                            <RiReactjsLine/>
+                            <FaCss3Alt/>
+                            <IoLogoJavascript/>
                             <TbBrandNodejs/>
-                            <BiLogoPostgresql/>
-                            <TbBrandReactNative/>
+                            <SiExpress/>
                         </span>
                     </Capa>
                 </Card>
@@ -73,7 +69,8 @@ export default function Projetos(){
                 linkVideo={Video_sujeitoPizza}
                 linkGit="SujeitoPizza"
                 >
-                Projeto feito em uma aula no udemy.
+                O "Projeto Pizza" foi desenvolvido durante uma aula com o objetivo de proporcionar um 
+                aprofundamento no ensino. Este curso foi realizado através da plataforma Udemy.
             </ModalBase>
 
             <ModalBase
@@ -84,7 +81,12 @@ export default function Projetos(){
                 linkVideo={video_projetoRadar}
                 linkGit=""
                 >
-                Projeto feito no meu estágio
+                O "Projeto Radar" é uma iniciativa destinada a monitorar os radares nas cidades de Manaus e Santarém. 
+                As imagens capturadas são armazenadas em uma pasta denominada "figure", e essas imagens são acessadas 
+                através do Node.js. Para a visualização dos dados de localização, utilizei a biblioteca Leaflet, que 
+                permite a criação de mapas interativos.
+                <br/>
+                Devido ao fato de este ser um projeto governamental, estou impedido de divulgar os códigos desenvolvidos.
             </ModalBase>
         </Container>
     )
